@@ -1,0 +1,64 @@
+
+body {
+    background: orange url(https://images.pexels.com/photos/288100/pexels-photo-288100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) top right no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+/* About our User */
+.aboutUser {
+    margin: 50px auto 20px auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.aboutUser img {
+    width: 30%;
+    border-radius: 50%;
+    padding-bottom: none;
+}
+
+/* Buttons for the Links */
+.linkButtons a {
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+    background: #1f232e;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+@-webkit-keyframes bounce {
+    0% {
+    transform: scale(1,1) translate(0px, 0px);
+    }
+
+    30%{
+    transform: scale(1,0.8) translate(0px, 10px); 
+    }
+
+    75%{
+    transform: scale(1,1.1) translate(0px, -25px); 
+    }
+
+    100% {
+    transform: scale(1,1) translate(0px, 0px);
+    }
+}
+
+.linkButtons a:hover {
+    color: #d2e823;
+    -webkit-animation: bounce 0.5s 1 linear;
+    /* -moz-animation: bounce 1s 3 linear; */
+}
+
+.logo {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 200;
+}
